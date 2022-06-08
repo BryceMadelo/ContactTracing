@@ -1,0 +1,11 @@
+C:\Users\Bryce\source\repos\ContactTracer\ContactTracer\bin\Debug\ContactTracer.exe.config
+C:\Users\Bryce\source\repos\ContactTracer\ContactTracer\bin\Debug\ContactTracer.exe
+C:\Users\Bryce\source\repos\ContactTracer\ContactTracer\bin\Debug\ContactTracer.pdb
+C:\Users\Bryce\source\repos\ContactTracer\ContactTracer\obj\Debug\ContactTracer.csproj.AssemblyReference.cache
+C:\Users\Bryce\source\repos\ContactTracer\ContactTracer\obj\Debug\ContactTracer.csproj.SuggestedBindingRedirects.cache
+C:\Users\Bryce\source\repos\ContactTracer\ContactTracer\obj\Debug\ContactTracer.Form1.resources
+C:\Users\Bryce\source\repos\ContactTracer\ContactTracer\obj\Debug\ContactTracer.Properties.Resources.resources
+C:\Users\Bryce\source\repos\ContactTracer\ContactTracer\obj\Debug\ContactTracer.csproj.GenerateResource.cache
+C:\Users\Bryce\source\repos\ContactTracer\ContactTracer\obj\Debug\ContactTracer.csproj.CoreCompileInputs.cache
+C:\Users\Bryce\source\repos\ContactTracer\ContactTracer\obj\Debug\ContactTracer.exe
+C:\Users\Bryce\source\repos\ContactTracer\ContactTracer\obj\Debug\ContactTracer.pdb
