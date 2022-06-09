@@ -64,6 +64,86 @@ namespace ContactTracer
             file.WriteLine("Instagram Account: " + TxtboxInsta.Text);
             file.WriteLine("Name of Guardian: " + TxtboxGuarName.Text);
             file.WriteLine("Guardian's Phone #: " + TxtboxGuarPhnum.Text);
+            //Health Information
+            file.WriteLine("-----HEALTH INFORMATION-----");
+            file.WriteLine("Have you been exepriencing the following symptoms in the past few days?");
+            if (RadiobtnCoughYes.Checked)
+            {
+                file.WriteLine("Cough: " + RadiobtnCoughYes.Text);
+            }
+            else
+            {
+                file.WriteLine("Cough: " + RadiobtnCoughNo.Text);
+            }
+            if (RadiobtnFeverYes.Checked)
+            {
+                file.WriteLine("Fever: " + RadiobtnFeverYes.Text);
+            }
+            else
+            {
+                file.WriteLine("Fever: " + RadiobtnFeverNo.Text);
+            }
+            if (RadiobtnSoarThrtYes.Checked)
+            {
+                file.WriteLine("Soar Throat: " + RadiobtnSoarThrtYes.Text);
+            }
+            else
+            {
+                file.WriteLine("Soar Throat: " + RadiobtnSoarThrtNo.Text);
+            }
+            if (RadiobtnLossTasteYes.Checked)
+            {
+                file.WriteLine("Loss of taste or smell: " + RadiobtnLossTasteYes.Text);
+            }
+            else
+            {
+                file.WriteLine("Loss of taste or smell: " + RadiobtnLossTasteNo.Text);
+            }
+            if (RadiobtnRunNoseYes.Checked)
+            {
+                file.WriteLine("Runny Nose: " + RadiobtnRunNoseYes.Text);
+            }
+            else
+            {
+                file.WriteLine("Runny Nose: " + RadiobtnRunNoseNo.Text);
+            }
+            if (RadiobtnDiffBreathYes.Checked)
+            {
+                file.WriteLine("Difficulty breathing: " + RadiobtnDiffBreathYes.Text);
+            }
+            else
+            {
+                file.WriteLine("Diffculty breathing: " + RadiobtnDiffBreathNo.Text);
+            }
+            if (RadiobtnCovidContactYes.Checked)
+            {
+                file.WriteLine("Have you been in close contact with a Covid - 19 case?: " + RadiobtnCovidContactYes.Text);
+            }
+            else
+            {
+                file.WriteLine("Have you been in close contact with a Covid - 19 case?: " + RadiobtnCovidContactNo.Text);
+            }
+            if (RadiobtnTraveledYes.Checked)
+            {
+                file.WriteLine("Have you traveled outside the country in the last 14 days?: " + RadiobtnTraveledYes.Text);
+            }
+            else
+            {
+                file.WriteLine("Have you traveled outside the country in the last 14 days?: " + RadiobtnTraveledNo.Text);
+            }
+            if (RadiobtnFullyVaxYes.Checked)
+            {
+                file.WriteLine("Have you received vaccine doses?: " + RadiobtnFullyVaxYes.Text);
+            }
+            if (RadiobtnFullyVaxwithBoosterYes.Checked)
+            {
+                file.WriteLine("Have you received vaccine doses?: " + RadiobtnFullyVaxwithBoosterYes.Text);
+            }
+            else
+            {
+                file.WriteLine("Have you received vaccine doses?: " + RadiobtnVaxNo.Text);
+            }
+
 
             file.Close();
         }
