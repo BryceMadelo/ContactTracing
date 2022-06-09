@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
 
 namespace ContactTracer
 {
@@ -35,6 +36,13 @@ namespace ContactTracer
         private void button6_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnSaveandSub_Click(object sender, EventArgs e)
+        {
+            StreamWriter file = File.AppendText(@"C:\Users\Bryce\ContactTracing\UpsideDownVisitors.txt");
+            file.WriteLine("Check");
+            file.Close();
         }
     }
 }
