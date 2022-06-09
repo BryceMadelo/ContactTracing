@@ -40,9 +40,6 @@ namespace ContactTracer
 
         private void btnSaveandSub_Click(object sender, EventArgs e)
         {
-            StreamWriter file = File.AppendText(@"C:\Users\Bryce\ContactTracing\UpsideDownVisitors.txt");
-            file.WriteLine("Check");
-            file.Close();
         }
     }
 }

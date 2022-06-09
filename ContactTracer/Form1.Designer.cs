@@ -35,9 +35,6 @@
             this.TxtboxAdd = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.TxtboxAge = new System.Windows.Forms.TextBox();
             this.button3 = new System.Windows.Forms.Button();
@@ -71,7 +68,6 @@
             this.label25 = new System.Windows.Forms.Label();
             this.label26 = new System.Windows.Forms.Label();
             this.label27 = new System.Windows.Forms.Label();
-            this.label28 = new System.Windows.Forms.Label();
             this.RadiobtnCoughNo = new System.Windows.Forms.RadioButton();
             this.RadiobtnCoughYes = new System.Windows.Forms.RadioButton();
             this.RadiobtnFeverNo = new System.Windows.Forms.RadioButton();
@@ -80,8 +76,6 @@
             this.RadiobtnSoarThrtYes = new System.Windows.Forms.RadioButton();
             this.RadiobtnRunNoseNo = new System.Windows.Forms.RadioButton();
             this.RadiobtnRunNoseYes = new System.Windows.Forms.RadioButton();
-            this.RadiobtnChestPnNo = new System.Windows.Forms.RadioButton();
-            this.RadiobtnChestPnYes = new System.Windows.Forms.RadioButton();
             this.RadiobtnLossTasteNo = new System.Windows.Forms.RadioButton();
             this.RadiobtnLossTasteYes = new System.Windows.Forms.RadioButton();
             this.RadiobtnDiffBreathNo = new System.Windows.Forms.RadioButton();
@@ -91,9 +85,6 @@
             this.RadiobtnTraveledYes = new System.Windows.Forms.RadioButton();
             this.RadiobtnMale = new System.Windows.Forms.RadioButton();
             this.RadiobtnFemale = new System.Windows.Forms.RadioButton();
-            this.Txtboxdd = new System.Windows.Forms.TextBox();
-            this.Txtboxmm = new System.Windows.Forms.TextBox();
-            this.Txtboxyyyy = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.TxtboxNat = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
@@ -104,7 +95,24 @@
             this.button1 = new System.Windows.Forms.Button();
             this.btnSaveandSub = new System.Windows.Forms.Button();
             this.label30 = new System.Windows.Forms.Label();
+            this.TxtboxBday = new System.Windows.Forms.DateTimePicker();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.groupBox5 = new System.Windows.Forms.GroupBox();
+            this.groupBox6 = new System.Windows.Forms.GroupBox();
+            this.groupBox7 = new System.Windows.Forms.GroupBox();
+            this.groupBox8 = new System.Windows.Forms.GroupBox();
+            this.groupBox9 = new System.Windows.Forms.GroupBox();
             this.groupBox1.SuspendLayout();
+            this.groupBox3.SuspendLayout();
+            this.groupBox2.SuspendLayout();
+            this.groupBox4.SuspendLayout();
+            this.groupBox5.SuspendLayout();
+            this.groupBox6.SuspendLayout();
+            this.groupBox7.SuspendLayout();
+            this.groupBox8.SuspendLayout();
+            this.groupBox9.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
@@ -172,36 +180,6 @@
             this.label7.Size = new System.Drawing.Size(104, 17);
             this.label7.TabIndex = 11;
             this.label7.Text = "DATE OF BIRTH";
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Malgun Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(607, 114);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(23, 15);
-            this.label8.TabIndex = 15;
-            this.label8.Text = "dd";
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Malgun Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(650, 114);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(29, 15);
-            this.label9.TabIndex = 16;
-            this.label9.Text = "mm";
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Malgun Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(703, 112);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(31, 15);
-            this.label10.TabIndex = 17;
-            this.label10.Text = "yyyy";
             // 
             // label11
             // 
@@ -417,7 +395,7 @@
             // 
             this.RadiobtnCovidContactYes.AutoSize = true;
             this.RadiobtnCovidContactYes.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.RadiobtnCovidContactYes.Location = new System.Drawing.Point(384, 425);
+            this.RadiobtnCovidContactYes.Location = new System.Drawing.Point(294, 19);
             this.RadiobtnCovidContactYes.Name = "RadiobtnCovidContactYes";
             this.RadiobtnCovidContactYes.Size = new System.Drawing.Size(45, 19);
             this.RadiobtnCovidContactYes.TabIndex = 63;
@@ -429,7 +407,7 @@
             // 
             this.RadiobtnCovidContactNo.AutoSize = true;
             this.RadiobtnCovidContactNo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.RadiobtnCovidContactNo.Location = new System.Drawing.Point(425, 425);
+            this.RadiobtnCovidContactNo.Location = new System.Drawing.Point(345, 19);
             this.RadiobtnCovidContactNo.Name = "RadiobtnCovidContactNo";
             this.RadiobtnCovidContactNo.Size = new System.Drawing.Size(41, 19);
             this.RadiobtnCovidContactNo.TabIndex = 65;
@@ -441,27 +419,27 @@
             // 
             this.label18.AutoSize = true;
             this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.Location = new System.Drawing.Point(12, 425);
+            this.label18.Location = new System.Drawing.Point(6, 14);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(360, 17);
+            this.label18.Size = new System.Drawing.Size(210, 34);
             this.label18.TabIndex = 64;
-            this.label18.Text = "Have you been in close contact with a Covid - 19 case? ";
+            this.label18.Text = "Have you been in close contact \r\nwith a Covid - 19 case? ";
             // 
             // label20
             // 
             this.label20.AutoSize = true;
             this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label20.Location = new System.Drawing.Point(12, 443);
+            this.label20.Location = new System.Drawing.Point(17, 425);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(337, 51);
+            this.label20.Size = new System.Drawing.Size(274, 51);
             this.label20.TabIndex = 67;
-            this.label20.Text = "Have you been exepriencing the following symptoms\r\nin the past few days?\r\n\r\n";
+            this.label20.Text = "Have you been exepriencing the following \r\nsymptoms in the past few days?\r\n\r\n";
             // 
             // label22
             // 
             this.label22.AutoSize = true;
             this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label22.Location = new System.Drawing.Point(26, 481);
+            this.label22.Location = new System.Drawing.Point(5, 7);
             this.label22.Name = "label22";
             this.label22.Size = new System.Drawing.Size(54, 17);
             this.label22.TabIndex = 68;
@@ -471,7 +449,7 @@
             // 
             this.label23.AutoSize = true;
             this.label23.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label23.Location = new System.Drawing.Point(26, 498);
+            this.label23.Location = new System.Drawing.Point(7, 11);
             this.label23.Name = "label23";
             this.label23.Size = new System.Drawing.Size(49, 17);
             this.label23.TabIndex = 69;
@@ -481,7 +459,7 @@
             // 
             this.label24.AutoSize = true;
             this.label24.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label24.Location = new System.Drawing.Point(26, 514);
+            this.label24.Location = new System.Drawing.Point(6, 16);
             this.label24.Name = "label24";
             this.label24.Size = new System.Drawing.Size(89, 17);
             this.label24.TabIndex = 70;
@@ -491,7 +469,7 @@
             // 
             this.label25.AutoSize = true;
             this.label25.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label25.Location = new System.Drawing.Point(26, 530);
+            this.label25.Location = new System.Drawing.Point(6, 13);
             this.label25.Name = "label25";
             this.label25.Size = new System.Drawing.Size(91, 17);
             this.label25.TabIndex = 71;
@@ -501,7 +479,7 @@
             // 
             this.label26.AutoSize = true;
             this.label26.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label26.Location = new System.Drawing.Point(26, 582);
+            this.label26.Location = new System.Drawing.Point(6, 14);
             this.label26.Name = "label26";
             this.label26.Size = new System.Drawing.Size(131, 17);
             this.label26.TabIndex = 72;
@@ -511,27 +489,17 @@
             // 
             this.label27.AutoSize = true;
             this.label27.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label27.Location = new System.Drawing.Point(26, 565);
+            this.label27.Location = new System.Drawing.Point(5, 13);
             this.label27.Name = "label27";
             this.label27.Size = new System.Drawing.Size(147, 17);
             this.label27.TabIndex = 73;
             this.label27.Text = "•Loss of taste or smell";
             // 
-            // label28
-            // 
-            this.label28.AutoSize = true;
-            this.label28.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label28.Location = new System.Drawing.Point(26, 546);
-            this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(80, 17);
-            this.label28.TabIndex = 74;
-            this.label28.Text = "•Chest pain";
-            // 
             // RadiobtnCoughNo
             // 
             this.RadiobtnCoughNo.AutoSize = true;
             this.RadiobtnCoughNo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.RadiobtnCoughNo.Location = new System.Drawing.Point(240, 479);
+            this.RadiobtnCoughNo.Location = new System.Drawing.Point(217, 7);
             this.RadiobtnCoughNo.Name = "RadiobtnCoughNo";
             this.RadiobtnCoughNo.Size = new System.Drawing.Size(41, 19);
             this.RadiobtnCoughNo.TabIndex = 76;
@@ -543,7 +511,7 @@
             // 
             this.RadiobtnCoughYes.AutoSize = true;
             this.RadiobtnCoughYes.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.RadiobtnCoughYes.Location = new System.Drawing.Point(191, 479);
+            this.RadiobtnCoughYes.Location = new System.Drawing.Point(166, 7);
             this.RadiobtnCoughYes.Name = "RadiobtnCoughYes";
             this.RadiobtnCoughYes.Size = new System.Drawing.Size(45, 19);
             this.RadiobtnCoughYes.TabIndex = 75;
@@ -555,7 +523,7 @@
             // 
             this.RadiobtnFeverNo.AutoSize = true;
             this.RadiobtnFeverNo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.RadiobtnFeverNo.Location = new System.Drawing.Point(240, 497);
+            this.RadiobtnFeverNo.Location = new System.Drawing.Point(217, 9);
             this.RadiobtnFeverNo.Name = "RadiobtnFeverNo";
             this.RadiobtnFeverNo.Size = new System.Drawing.Size(41, 19);
             this.RadiobtnFeverNo.TabIndex = 78;
@@ -567,7 +535,7 @@
             // 
             this.RadiobtnFeverYes.AutoSize = true;
             this.RadiobtnFeverYes.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.RadiobtnFeverYes.Location = new System.Drawing.Point(191, 497);
+            this.RadiobtnFeverYes.Location = new System.Drawing.Point(166, 9);
             this.RadiobtnFeverYes.Name = "RadiobtnFeverYes";
             this.RadiobtnFeverYes.Size = new System.Drawing.Size(45, 19);
             this.RadiobtnFeverYes.TabIndex = 77;
@@ -579,7 +547,7 @@
             // 
             this.RadiobtnSoarThrtNo.AutoSize = true;
             this.RadiobtnSoarThrtNo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.RadiobtnSoarThrtNo.Location = new System.Drawing.Point(240, 514);
+            this.RadiobtnSoarThrtNo.Location = new System.Drawing.Point(217, 14);
             this.RadiobtnSoarThrtNo.Name = "RadiobtnSoarThrtNo";
             this.RadiobtnSoarThrtNo.Size = new System.Drawing.Size(41, 19);
             this.RadiobtnSoarThrtNo.TabIndex = 80;
@@ -591,7 +559,7 @@
             // 
             this.RadiobtnSoarThrtYes.AutoSize = true;
             this.RadiobtnSoarThrtYes.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.RadiobtnSoarThrtYes.Location = new System.Drawing.Point(191, 514);
+            this.RadiobtnSoarThrtYes.Location = new System.Drawing.Point(166, 16);
             this.RadiobtnSoarThrtYes.Name = "RadiobtnSoarThrtYes";
             this.RadiobtnSoarThrtYes.Size = new System.Drawing.Size(45, 19);
             this.RadiobtnSoarThrtYes.TabIndex = 79;
@@ -603,7 +571,7 @@
             // 
             this.RadiobtnRunNoseNo.AutoSize = true;
             this.RadiobtnRunNoseNo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.RadiobtnRunNoseNo.Location = new System.Drawing.Point(240, 530);
+            this.RadiobtnRunNoseNo.Location = new System.Drawing.Point(217, 11);
             this.RadiobtnRunNoseNo.Name = "RadiobtnRunNoseNo";
             this.RadiobtnRunNoseNo.Size = new System.Drawing.Size(41, 19);
             this.RadiobtnRunNoseNo.TabIndex = 82;
@@ -615,7 +583,7 @@
             // 
             this.RadiobtnRunNoseYes.AutoSize = true;
             this.RadiobtnRunNoseYes.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.RadiobtnRunNoseYes.Location = new System.Drawing.Point(191, 530);
+            this.RadiobtnRunNoseYes.Location = new System.Drawing.Point(166, 11);
             this.RadiobtnRunNoseYes.Name = "RadiobtnRunNoseYes";
             this.RadiobtnRunNoseYes.Size = new System.Drawing.Size(45, 19);
             this.RadiobtnRunNoseYes.TabIndex = 81;
@@ -623,35 +591,11 @@
             this.RadiobtnRunNoseYes.Text = "Yes";
             this.RadiobtnRunNoseYes.UseVisualStyleBackColor = true;
             // 
-            // RadiobtnChestPnNo
-            // 
-            this.RadiobtnChestPnNo.AutoSize = true;
-            this.RadiobtnChestPnNo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.RadiobtnChestPnNo.Location = new System.Drawing.Point(240, 546);
-            this.RadiobtnChestPnNo.Name = "RadiobtnChestPnNo";
-            this.RadiobtnChestPnNo.Size = new System.Drawing.Size(41, 19);
-            this.RadiobtnChestPnNo.TabIndex = 84;
-            this.RadiobtnChestPnNo.TabStop = true;
-            this.RadiobtnChestPnNo.Text = "No";
-            this.RadiobtnChestPnNo.UseVisualStyleBackColor = true;
-            // 
-            // RadiobtnChestPnYes
-            // 
-            this.RadiobtnChestPnYes.AutoSize = true;
-            this.RadiobtnChestPnYes.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.RadiobtnChestPnYes.Location = new System.Drawing.Point(191, 546);
-            this.RadiobtnChestPnYes.Name = "RadiobtnChestPnYes";
-            this.RadiobtnChestPnYes.Size = new System.Drawing.Size(45, 19);
-            this.RadiobtnChestPnYes.TabIndex = 83;
-            this.RadiobtnChestPnYes.TabStop = true;
-            this.RadiobtnChestPnYes.Text = "Yes";
-            this.RadiobtnChestPnYes.UseVisualStyleBackColor = true;
-            // 
             // RadiobtnLossTasteNo
             // 
             this.RadiobtnLossTasteNo.AutoSize = true;
             this.RadiobtnLossTasteNo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.RadiobtnLossTasteNo.Location = new System.Drawing.Point(240, 564);
+            this.RadiobtnLossTasteNo.Location = new System.Drawing.Point(217, 11);
             this.RadiobtnLossTasteNo.Name = "RadiobtnLossTasteNo";
             this.RadiobtnLossTasteNo.Size = new System.Drawing.Size(41, 19);
             this.RadiobtnLossTasteNo.TabIndex = 86;
@@ -663,7 +607,7 @@
             // 
             this.RadiobtnLossTasteYes.AutoSize = true;
             this.RadiobtnLossTasteYes.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.RadiobtnLossTasteYes.Location = new System.Drawing.Point(191, 564);
+            this.RadiobtnLossTasteYes.Location = new System.Drawing.Point(166, 11);
             this.RadiobtnLossTasteYes.Name = "RadiobtnLossTasteYes";
             this.RadiobtnLossTasteYes.Size = new System.Drawing.Size(45, 19);
             this.RadiobtnLossTasteYes.TabIndex = 85;
@@ -675,7 +619,7 @@
             // 
             this.RadiobtnDiffBreathNo.AutoSize = true;
             this.RadiobtnDiffBreathNo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.RadiobtnDiffBreathNo.Location = new System.Drawing.Point(240, 580);
+            this.RadiobtnDiffBreathNo.Location = new System.Drawing.Point(217, 12);
             this.RadiobtnDiffBreathNo.Name = "RadiobtnDiffBreathNo";
             this.RadiobtnDiffBreathNo.Size = new System.Drawing.Size(41, 19);
             this.RadiobtnDiffBreathNo.TabIndex = 88;
@@ -687,7 +631,7 @@
             // 
             this.RadiobtnDiffBreathYes.AutoSize = true;
             this.RadiobtnDiffBreathYes.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.RadiobtnDiffBreathYes.Location = new System.Drawing.Point(191, 580);
+            this.RadiobtnDiffBreathYes.Location = new System.Drawing.Point(166, 11);
             this.RadiobtnDiffBreathYes.Name = "RadiobtnDiffBreathYes";
             this.RadiobtnDiffBreathYes.Size = new System.Drawing.Size(45, 19);
             this.RadiobtnDiffBreathYes.TabIndex = 87;
@@ -699,7 +643,7 @@
             // 
             this.RadiobtnTraveledNo.AutoSize = true;
             this.RadiobtnTraveledNo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.RadiobtnTraveledNo.Location = new System.Drawing.Point(435, 599);
+            this.RadiobtnTraveledNo.Location = new System.Drawing.Point(345, 19);
             this.RadiobtnTraveledNo.Name = "RadiobtnTraveledNo";
             this.RadiobtnTraveledNo.Size = new System.Drawing.Size(41, 19);
             this.RadiobtnTraveledNo.TabIndex = 91;
@@ -711,17 +655,17 @@
             // 
             this.label29.AutoSize = true;
             this.label29.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label29.Location = new System.Drawing.Point(12, 599);
+            this.label29.Location = new System.Drawing.Point(5, 12);
             this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(379, 17);
+            this.label29.Size = new System.Drawing.Size(201, 34);
             this.label29.TabIndex = 90;
-            this.label29.Text = "Have you traveled outside the country in the last 14 days? ";
+            this.label29.Text = "Have you traveled outside the \r\ncountry in the last 14 days? ";
             // 
             // RadiobtnTraveledYes
             // 
             this.RadiobtnTraveledYes.AutoSize = true;
             this.RadiobtnTraveledYes.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.RadiobtnTraveledYes.Location = new System.Drawing.Point(395, 599);
+            this.RadiobtnTraveledYes.Location = new System.Drawing.Point(294, 18);
             this.RadiobtnTraveledYes.Name = "RadiobtnTraveledYes";
             this.RadiobtnTraveledYes.Size = new System.Drawing.Size(45, 19);
             this.RadiobtnTraveledYes.TabIndex = 89;
@@ -752,30 +696,6 @@
             this.RadiobtnFemale.TabStop = true;
             this.RadiobtnFemale.Text = "Female";
             this.RadiobtnFemale.UseVisualStyleBackColor = true;
-            // 
-            // Txtboxdd
-            // 
-            this.Txtboxdd.Location = new System.Drawing.Point(601, 131);
-            this.Txtboxdd.Multiline = true;
-            this.Txtboxdd.Name = "Txtboxdd";
-            this.Txtboxdd.Size = new System.Drawing.Size(36, 22);
-            this.Txtboxdd.TabIndex = 94;
-            // 
-            // Txtboxmm
-            // 
-            this.Txtboxmm.Location = new System.Drawing.Point(643, 131);
-            this.Txtboxmm.Multiline = true;
-            this.Txtboxmm.Name = "Txtboxmm";
-            this.Txtboxmm.Size = new System.Drawing.Size(36, 22);
-            this.Txtboxmm.TabIndex = 95;
-            // 
-            // Txtboxyyyy
-            // 
-            this.Txtboxyyyy.Location = new System.Drawing.Point(689, 130);
-            this.Txtboxyyyy.Multiline = true;
-            this.Txtboxyyyy.Name = "Txtboxyyyy";
-            this.Txtboxyyyy.Size = new System.Drawing.Size(50, 22);
-            this.Txtboxyyyy.TabIndex = 96;
             // 
             // label5
             // 
@@ -848,7 +768,7 @@
             this.groupBox1.Controls.Add(this.RadiobtnVaxNo);
             this.groupBox1.Controls.Add(this.label6);
             this.groupBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.groupBox1.Location = new System.Drawing.Point(484, 459);
+            this.groupBox1.Location = new System.Drawing.Point(423, 522);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(294, 121);
             this.groupBox1.TabIndex = 104;
@@ -858,13 +778,13 @@
             // 
             this.button1.Location = new System.Drawing.Point(7, 417);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(784, 220);
+            this.button1.Size = new System.Drawing.Size(784, 238);
             this.button1.TabIndex = 105;
             this.button1.UseVisualStyleBackColor = true;
             // 
             // btnSaveandSub
             // 
-            this.btnSaveandSub.Location = new System.Drawing.Point(327, 643);
+            this.btnSaveandSub.Location = new System.Drawing.Point(332, 662);
             this.btnSaveandSub.Name = "btnSaveandSub";
             this.btnSaveandSub.Size = new System.Drawing.Size(149, 38);
             this.btnSaveandSub.TabIndex = 106;
@@ -882,46 +802,119 @@
             this.label30.TabIndex = 107;
             this.label30.Text = "(optional)";
             // 
+            // TxtboxBday
+            // 
+            this.TxtboxBday.Location = new System.Drawing.Point(586, 117);
+            this.TxtboxBday.Name = "TxtboxBday";
+            this.TxtboxBday.Size = new System.Drawing.Size(187, 20);
+            this.TxtboxBday.TabIndex = 108;
+            // 
+            // groupBox3
+            // 
+            this.groupBox3.Controls.Add(this.label22);
+            this.groupBox3.Controls.Add(this.RadiobtnCoughYes);
+            this.groupBox3.Controls.Add(this.RadiobtnCoughNo);
+            this.groupBox3.Location = new System.Drawing.Point(18, 458);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(279, 35);
+            this.groupBox3.TabIndex = 110;
+            this.groupBox3.TabStop = false;
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.label23);
+            this.groupBox2.Controls.Add(this.RadiobtnFeverYes);
+            this.groupBox2.Controls.Add(this.RadiobtnFeverNo);
+            this.groupBox2.Location = new System.Drawing.Point(18, 485);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(279, 34);
+            this.groupBox2.TabIndex = 111;
+            this.groupBox2.TabStop = false;
+            // 
+            // groupBox4
+            // 
+            this.groupBox4.Controls.Add(this.label24);
+            this.groupBox4.Controls.Add(this.RadiobtnSoarThrtYes);
+            this.groupBox4.Controls.Add(this.RadiobtnSoarThrtNo);
+            this.groupBox4.Location = new System.Drawing.Point(18, 506);
+            this.groupBox4.Name = "groupBox4";
+            this.groupBox4.Size = new System.Drawing.Size(279, 45);
+            this.groupBox4.TabIndex = 112;
+            this.groupBox4.TabStop = false;
+            // 
+            // groupBox5
+            // 
+            this.groupBox5.Controls.Add(this.label25);
+            this.groupBox5.Controls.Add(this.RadiobtnRunNoseYes);
+            this.groupBox5.Controls.Add(this.RadiobtnRunNoseNo);
+            this.groupBox5.Location = new System.Drawing.Point(18, 574);
+            this.groupBox5.Name = "groupBox5";
+            this.groupBox5.Size = new System.Drawing.Size(279, 38);
+            this.groupBox5.TabIndex = 113;
+            this.groupBox5.TabStop = false;
+            // 
+            // groupBox6
+            // 
+            this.groupBox6.Controls.Add(this.label27);
+            this.groupBox6.Controls.Add(this.RadiobtnLossTasteYes);
+            this.groupBox6.Controls.Add(this.RadiobtnLossTasteNo);
+            this.groupBox6.Location = new System.Drawing.Point(18, 541);
+            this.groupBox6.Name = "groupBox6";
+            this.groupBox6.Size = new System.Drawing.Size(279, 42);
+            this.groupBox6.TabIndex = 114;
+            this.groupBox6.TabStop = false;
+            // 
+            // groupBox7
+            // 
+            this.groupBox7.Controls.Add(this.label26);
+            this.groupBox7.Controls.Add(this.RadiobtnDiffBreathYes);
+            this.groupBox7.Controls.Add(this.RadiobtnDiffBreathNo);
+            this.groupBox7.Location = new System.Drawing.Point(18, 607);
+            this.groupBox7.Name = "groupBox7";
+            this.groupBox7.Size = new System.Drawing.Size(279, 40);
+            this.groupBox7.TabIndex = 115;
+            this.groupBox7.TabStop = false;
+            // 
+            // groupBox8
+            // 
+            this.groupBox8.Controls.Add(this.label29);
+            this.groupBox8.Controls.Add(this.RadiobtnTraveledYes);
+            this.groupBox8.Controls.Add(this.RadiobtnTraveledNo);
+            this.groupBox8.Location = new System.Drawing.Point(350, 466);
+            this.groupBox8.Name = "groupBox8";
+            this.groupBox8.Size = new System.Drawing.Size(412, 53);
+            this.groupBox8.TabIndex = 116;
+            this.groupBox8.TabStop = false;
+            // 
+            // groupBox9
+            // 
+            this.groupBox9.Controls.Add(this.label18);
+            this.groupBox9.Controls.Add(this.RadiobtnCovidContactYes);
+            this.groupBox9.Controls.Add(this.RadiobtnCovidContactNo);
+            this.groupBox9.Location = new System.Drawing.Point(350, 425);
+            this.groupBox9.Name = "groupBox9";
+            this.groupBox9.Size = new System.Drawing.Size(412, 53);
+            this.groupBox9.TabIndex = 117;
+            this.groupBox9.TabStop = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(805, 712);
+            this.Controls.Add(this.groupBox9);
+            this.Controls.Add(this.groupBox8);
+            this.Controls.Add(this.groupBox7);
+            this.Controls.Add(this.groupBox6);
+            this.Controls.Add(this.groupBox5);
+            this.Controls.Add(this.TxtboxBday);
             this.Controls.Add(this.label30);
             this.Controls.Add(this.btnSaveandSub);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.TxtboxNat);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.Txtboxyyyy);
-            this.Controls.Add(this.Txtboxmm);
-            this.Controls.Add(this.Txtboxdd);
             this.Controls.Add(this.RadiobtnFemale);
             this.Controls.Add(this.RadiobtnMale);
-            this.Controls.Add(this.RadiobtnTraveledNo);
-            this.Controls.Add(this.RadiobtnDiffBreathNo);
-            this.Controls.Add(this.RadiobtnDiffBreathYes);
-            this.Controls.Add(this.RadiobtnLossTasteNo);
-            this.Controls.Add(this.RadiobtnLossTasteYes);
-            this.Controls.Add(this.RadiobtnChestPnNo);
-            this.Controls.Add(this.RadiobtnChestPnYes);
-            this.Controls.Add(this.RadiobtnRunNoseNo);
-            this.Controls.Add(this.RadiobtnRunNoseYes);
-            this.Controls.Add(this.RadiobtnSoarThrtNo);
-            this.Controls.Add(this.RadiobtnSoarThrtYes);
-            this.Controls.Add(this.RadiobtnFeverNo);
-            this.Controls.Add(this.RadiobtnFeverYes);
-            this.Controls.Add(this.RadiobtnCoughNo);
-            this.Controls.Add(this.RadiobtnCoughYes);
-            this.Controls.Add(this.label28);
-            this.Controls.Add(this.label27);
-            this.Controls.Add(this.label26);
-            this.Controls.Add(this.label25);
-            this.Controls.Add(this.label24);
-            this.Controls.Add(this.label23);
-            this.Controls.Add(this.label22);
-            this.Controls.Add(this.label20);
-            this.Controls.Add(this.RadiobtnCovidContactNo);
-            this.Controls.Add(this.RadiobtnCovidContactYes);
             this.Controls.Add(this.button9);
             this.Controls.Add(this.TxtboxGuarPhnum);
             this.Controls.Add(this.label17);
@@ -942,9 +935,6 @@
             this.Controls.Add(this.button3);
             this.Controls.Add(this.TxtboxAge);
             this.Controls.Add(this.label11);
-            this.Controls.Add(this.label10);
-            this.Controls.Add(this.label9);
-            this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.TxtboxAdd);
             this.Controls.Add(this.label4);
@@ -955,15 +945,32 @@
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.button7);
-            this.Controls.Add(this.RadiobtnTraveledYes);
-            this.Controls.Add(this.label29);
-            this.Controls.Add(this.label18);
+            this.Controls.Add(this.groupBox2);
+            this.Controls.Add(this.groupBox3);
+            this.Controls.Add(this.groupBox4);
+            this.Controls.Add(this.label20);
             this.Controls.Add(this.button1);
             this.Name = "Form1";
             this.Text = " Contact Tracer";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            this.groupBox3.ResumeLayout(false);
+            this.groupBox3.PerformLayout();
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
+            this.groupBox4.ResumeLayout(false);
+            this.groupBox4.PerformLayout();
+            this.groupBox5.ResumeLayout(false);
+            this.groupBox5.PerformLayout();
+            this.groupBox6.ResumeLayout(false);
+            this.groupBox6.PerformLayout();
+            this.groupBox7.ResumeLayout(false);
+            this.groupBox7.PerformLayout();
+            this.groupBox8.ResumeLayout(false);
+            this.groupBox8.PerformLayout();
+            this.groupBox9.ResumeLayout(false);
+            this.groupBox9.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -978,9 +985,6 @@
         private System.Windows.Forms.TextBox TxtboxAdd;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.TextBox TxtboxAge;
         private System.Windows.Forms.Button button3;
@@ -1014,7 +1018,6 @@
         private System.Windows.Forms.Label label25;
         private System.Windows.Forms.Label label26;
         private System.Windows.Forms.Label label27;
-        private System.Windows.Forms.Label label28;
         private System.Windows.Forms.RadioButton RadiobtnCoughNo;
         private System.Windows.Forms.RadioButton RadiobtnCoughYes;
         private System.Windows.Forms.RadioButton RadiobtnFeverNo;
@@ -1023,8 +1026,6 @@
         private System.Windows.Forms.RadioButton RadiobtnSoarThrtYes;
         private System.Windows.Forms.RadioButton RadiobtnRunNoseNo;
         private System.Windows.Forms.RadioButton RadiobtnRunNoseYes;
-        private System.Windows.Forms.RadioButton RadiobtnChestPnNo;
-        private System.Windows.Forms.RadioButton RadiobtnChestPnYes;
         private System.Windows.Forms.RadioButton RadiobtnLossTasteNo;
         private System.Windows.Forms.RadioButton RadiobtnLossTasteYes;
         private System.Windows.Forms.RadioButton RadiobtnDiffBreathNo;
@@ -1034,9 +1035,6 @@
         private System.Windows.Forms.RadioButton RadiobtnTraveledYes;
         private System.Windows.Forms.RadioButton RadiobtnMale;
         private System.Windows.Forms.RadioButton RadiobtnFemale;
-        private System.Windows.Forms.TextBox Txtboxdd;
-        private System.Windows.Forms.TextBox Txtboxmm;
-        private System.Windows.Forms.TextBox Txtboxyyyy;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox TxtboxNat;
         private System.Windows.Forms.Label label6;
@@ -1047,6 +1045,15 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button btnSaveandSub;
         private System.Windows.Forms.Label label30;
+        private System.Windows.Forms.DateTimePicker TxtboxBday;
+        private System.Windows.Forms.GroupBox groupBox3;
+        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.GroupBox groupBox4;
+        private System.Windows.Forms.GroupBox groupBox5;
+        private System.Windows.Forms.GroupBox groupBox6;
+        private System.Windows.Forms.GroupBox groupBox7;
+        private System.Windows.Forms.GroupBox groupBox8;
+        private System.Windows.Forms.GroupBox groupBox9;
     }
 }
 
