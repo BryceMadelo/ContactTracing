@@ -40,6 +40,23 @@ namespace ContactTracer
 
         private void btnSaveandSub_Click(object sender, EventArgs e)
         {
+            StreamWriter file = File.AppendText(@"C:\Users\Bryce\ContactTracing\UpsideDownVisitors.txt");
+            //Personal Information Section
+            file.WriteLine("PERSONAL INFORMATION");
+            file.WriteLine("Name: " + TxtboxName.Text);
+            file.WriteLine("Address: " + TxtboxAdd.Text);
+            if (RadiobtnMale.Checked)
+            {
+                file.WriteLine("Sex: " + RadiobtnMale.Text);
+            }
+            else
+            {
+                file.WriteLine("Sex: " + RadiobtnFemale.Text);
+            }
+            file.WriteLine("Age: " + TxtboxAge.Text);
+            file.WriteLine("Date of Birth: " + TxtboxBday.Text);
+            file.WriteLine("Nationality: " + TxtboxNat.Text);
+            file.Close();
         }
     }
 }
