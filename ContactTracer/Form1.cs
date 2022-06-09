@@ -42,7 +42,7 @@ namespace ContactTracer
         {
             StreamWriter file = File.AppendText(@"C:\Users\Bryce\ContactTracing\UpsideDownVisitors.txt");
             //Personal Information Section
-            file.WriteLine("PERSONAL INFORMATION");
+            file.WriteLine("-----PERSONAL INFORMATION-----");
             file.WriteLine("Name: " + TxtboxName.Text);
             file.WriteLine("Address: " + TxtboxAdd.Text);
             if (RadiobtnMale.Checked)
@@ -56,6 +56,15 @@ namespace ContactTracer
             file.WriteLine("Age: " + TxtboxAge.Text);
             file.WriteLine("Date of Birth: " + TxtboxBday.Text);
             file.WriteLine("Nationality: " + TxtboxNat.Text);
+            //Contact Information Section
+            file.WriteLine("-----CONTACT INFORMATION-----");
+            file.WriteLine("E-mail: " + TxtboxEmail.Text);
+            file.WriteLine("Phone #: " + TxtboxPhnum.Text);
+            file.WriteLine("Facebook Account: " + TxtboxFb.Text);
+            file.WriteLine("Instagram Account: " + TxtboxInsta.Text);
+            file.WriteLine("Name of Guardian: " + TxtboxGuarName.Text);
+            file.WriteLine("Guardian's Phone #: " + TxtboxGuarPhnum.Text);
+
             file.Close();
         }
     }
