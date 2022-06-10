@@ -17,30 +17,9 @@ namespace ContactTracer
         {
             InitializeComponent();
         }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label21_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox11_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button6_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void btnSaveandSub_Click(object sender, EventArgs e)
         {
-            StreamWriter file = File.AppendText(@"C:\Users\Bryce\ContactTracing\UpsideDownVisitors.txt");
+            StreamWriter file = File.AppendText(@"C:\Users\Bryce\ContactTracing\KonohaVisitors.txt");
             //Personal Information Section
             file.WriteLine("-----PERSONAL INFORMATION-----");
             file.WriteLine("Name: " + TxtboxName.Text);
@@ -146,6 +125,38 @@ namespace ContactTracer
 
 
             file.Close();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label21_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox11_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+       
+
+        private void label9_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label8_Click(object sender, EventArgs e)
+        {
+           
         }
     }
 }
