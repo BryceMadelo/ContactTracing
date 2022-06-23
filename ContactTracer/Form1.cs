@@ -17,7 +17,7 @@ namespace ContactTracer
         {
             InitializeComponent();
         }
-        private void btnSaveandSub_Click(object sender, EventArgs e)
+        /*private void btnSaveandSub_Click(object sender, EventArgs e)
         {
             StreamWriter file = File.AppendText(@"C:\Users\Bryce\ContactTracing\KonohaVisitors.txt");
             //Personal Information Section
@@ -114,22 +114,21 @@ namespace ContactTracer
             {
                 file.WriteLine("Have you received vaccine doses?: " + RadiobtnFullyVaxYes.Text);
             }
-            if (RadiobtnFullyVaxwithBoosterYes.Checked)
-            {
-                file.WriteLine("Have you received vaccine doses?: " + RadiobtnFullyVaxwithBoosterYes.Text);
-            }
             else
             {
                 file.WriteLine("Have you received vaccine doses?: " + RadiobtnVaxNo.Text);
             }
-
-
+            if (RadiobtnFullyVaxwithBoosterYes.Checked)
+            {
+                file.WriteLine("Have you received vaccine doses?: " + RadiobtnFullyVaxwithBoosterYes.Text);
+            }
             file.Close();
-        }
+        }*/
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            Page2.Visible = false;
+            Page3.Visible = false;
         }
 
         private void label21_Click(object sender, EventArgs e)
@@ -157,6 +156,42 @@ namespace ContactTracer
         private void label8_Click(object sender, EventArgs e)
         {
            
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Nxt1_Click(object sender, EventArgs e)
+        {
+            Page1.Visible = false;
+            Page2.Visible = true;
+        }
+
+        private void Prev1_Click(object sender, EventArgs e)
+        {
+            Page1.Visible = true;
+            Page2.Visible = false;
+        }
+
+        private void Nxt2_Click(object sender, EventArgs e)
+        {
+            Page1.Visible = false;
+            Page2.Visible = false;
+            Page3.Visible = true;
+        }
+
+        private void Prev2_Click(object sender, EventArgs e)
+        {
+            Page1.Visible = false;
+            Page2.Visible = true;
+            Page3.Visible = false;
+        }
+
+        private void dateTimePicker2_ValueChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
