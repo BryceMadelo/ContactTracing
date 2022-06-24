@@ -17,7 +17,7 @@ namespace ContactTracer
         {
             InitializeComponent();
         }
-        /*private void btnSaveandSub_Click(object sender, EventArgs e)
+        private void btnSaveandSub_Click_1(object sender, EventArgs e)
         {
             StreamWriter file = File.AppendText(@"C:\Users\Bryce\ContactTracing\KonohaVisitors.txt");
             //Personal Information Section
@@ -33,7 +33,7 @@ namespace ContactTracer
                 file.WriteLine("Sex: " + RadiobtnFemale.Text);
             }
             file.WriteLine("Age: " + TxtboxAge.Text);
-            file.WriteLine("Date of Birth: " + TxtboxBday.Text);
+            file.WriteLine("Date of Visit: " + TxtboxVisitday.Text);
             file.WriteLine("Nationality: " + TxtboxNat.Text);
             //Contact Information Section
             file.WriteLine("-----CONTACT INFORMATION-----");
@@ -123,8 +123,7 @@ namespace ContactTracer
                 file.WriteLine("Have you received vaccine doses?: " + RadiobtnFullyVaxwithBoosterYes.Text);
             }
             file.Close();
-        }*/
-
+        }
         private void Form1_Load(object sender, EventArgs e)
         {
             Page2.Visible = false;
@@ -192,6 +191,28 @@ namespace ContactTracer
         private void dateTimePicker2_ValueChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void Page2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void Page3_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void btnReveal_Click(object sender, EventArgs e)
+        {
+            string path = @"C:\Users\Bryce\ContactTracing\KonohaVisitors.txt";
+            var str = File.ReadAllText(path);
+            txtBoxData.Text = str;
         }
     }
 }
