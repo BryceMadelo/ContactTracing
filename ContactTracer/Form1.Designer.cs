@@ -1198,7 +1198,7 @@
             // 
             this.labFilter.AutoSize = true;
             this.labFilter.Font = new System.Drawing.Font("Cambria", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labFilter.Location = new System.Drawing.Point(30, 92);
+            this.labFilter.Location = new System.Drawing.Point(35, 94);
             this.labFilter.Name = "labFilter";
             this.labFilter.Size = new System.Drawing.Size(66, 23);
             this.labFilter.TabIndex = 6;
